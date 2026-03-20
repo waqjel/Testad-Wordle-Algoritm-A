@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "name": "js_alogrithm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "largestNumber.js",
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "jest": "^30.3.0"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
